@@ -13,10 +13,15 @@ https://www.kaggle.com/code/christianmcb/league-of-legends-diamond-classificatio
 Regression (Wine quality): https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009?resource=download
 
 --> Data analysis: 
+
 Regression:
+
 https://www.kaggle.com/code/saadmansakib/linear-regression-from-scratch-predicting-wq/notebook
+
 https://www.kaggle.com/code/teddydavidson/wine-quality-logistic-regression
+
 Classification: 
+
 https://www.kaggle.com/code/zbyraydgn/classification-with-python
 
 Consignes
