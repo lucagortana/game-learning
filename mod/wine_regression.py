@@ -11,7 +11,7 @@ def mutual_info_scores(X, y):
         L'information mutuelle mesure la similarité entre chacune des caractéristiques et la variable 
         cible.
     '''
-    mi_scores = mutual_info_regression(X, y, discrete_X=False)
+    mi_scores = mutual_info_regression(X, y)
     mi_scores = pd.Series(mi_scores, name="MI Scores", index=X.columns)
     mi_scores = mi_scores.sort_values(ascending=False)
     return mi_scores
