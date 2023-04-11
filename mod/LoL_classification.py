@@ -1,4 +1,4 @@
-from sklearn.metrics import confusion_matrix, accuracy_score, recall_score, precision_score, f1_score
+from sklearn.metrics import accuracy_score, recall_score, precision_score, f1_score
 from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 
