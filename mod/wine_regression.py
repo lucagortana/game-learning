@@ -85,8 +85,7 @@ def labeled_barplot(data, feature, perc=False, n=None):
     plt.show()  # show the plot
 
 
-def linear_regression(X, w, b): #@save
-    """The linear regression model."""
+def linear_regression(X, w, b): 
     return np.dot(X, w) + b
 
 def initialize_params(X):
@@ -95,11 +94,10 @@ def initialize_params(X):
     return w,b
 
 
-def mean_squared_loss(y_hat, y): #@save
-    """Squared loss."""
+def mean_squared_loss(y_hat, y): 
     return ((1/2)*(y_hat - y.reshape(y_hat.shape))**2).mean()
 
-def mbgd(X, params, batch_size, lr=0.005): #@save
+def mbgd(X,y, params, batch_size, lr=0.005): 
     y_hat = linear_regression(X, params[0], params[1])
     error = (y_hat - y.reshape(y_hat.shape))
     w_derivative = (np.dot(X.T,error)).sum()
